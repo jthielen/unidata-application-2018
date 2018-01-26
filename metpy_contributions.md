@@ -27,14 +27,19 @@ https://github.com/Unidata/MetPy/blob/v0.7.0/metpy/calc/tests/test_thermo.py#L77
 
 https://github.com/Unidata/MetPy/blob/v0.7.0/metpy/calc/thermo.py#L810-L845
 
-**[PR #677: Update to Treat RH as a Unitless Ratio in Existing Functions](https://github.com/Unidata/MetPy/pull/677)
+**[PR #677: Update to Treat RH as a Unitless Ratio in Existing Functions](https://github.com/Unidata/MetPy/pull/677)**
 
 - A series of modifications to treat relative humidity as a unitless ratio consistently throughout the library
 - Came about in discussions in the code review of [PR #669](https://github.com/Unidata/MetPy/pull/669)
+
+dev
+---
+
+**[PR #707: Force `mixing_ratio_from_relative_humidity` to return dimensionless](https://github.com/Unidata/MetPy/pull/707)**
+
+- Simply force this function added in [PR #669](https://github.com/Unidata/MetPy/pull/669) to return dimensionless (rather than whatever unit is passed for RH).
 
 Under Review
 ------------
 
 **[PR #695: Add Batch of Functions for Brunt-Väisälä Frequency and Period](https://github.com/Unidata/MetPy/pull/695)**
-
-**[PR #707: Force `mixing_ratio_from_relative_humidity` to return dimensionless](https://github.com/Unidata/MetPy/pull/707)**
